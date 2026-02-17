@@ -2,5 +2,7 @@
  
  # Work in Progress . . .
 
-![John Bey picture](Images/JBEYFOOD.jpg)
-![John Bey picture](Images/JBEYFOOD2.jpg)
+### 🍔 Food 🍜
+
+<img src="Images/JBEYFOOD1.jpg" height=150/>
+<img src="Images/JBEYFOOD2.jpg" height=150/>
