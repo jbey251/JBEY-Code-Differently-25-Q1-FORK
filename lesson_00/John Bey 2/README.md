@@ -1,6 +1,6 @@
  # John W. Bey's Life
  
- # Work in Progress . . .
+ ## Work in Progress . . .
 
 ### 🍔  Food  🍜
 
