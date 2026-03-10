@@ -6,7 +6,7 @@ import {
 } from 'codedifferently-instructional';
 export class JBey2Quiz implements QuizQuestionProvider {
   getProviderName(): string {
-    return 'JBey1', 'test';
+    return 'JBey1', 'test', '1';
   }
   makeQuizQuestions() {
     return [
