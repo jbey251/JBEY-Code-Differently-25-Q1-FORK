@@ -1,7 +1,6 @@
 import {
   AnswerChoice,
   MultipleChoiceQuizQuestion,
-  QuizQuestion,
   QuizQuestionProvider,
 } from 'codedifferently-instructional';
 export class JBey2Quiz implements QuizQuestionProvider {
