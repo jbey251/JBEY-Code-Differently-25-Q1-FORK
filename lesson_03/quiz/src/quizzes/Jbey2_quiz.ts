@@ -1,12 +1,11 @@
 import {
   AnswerChoice,
   MultipleChoiceQuizQuestion,
-  QuizQuestion,
   QuizQuestionProvider,
 } from 'codedifferently-instructional';
 export class JBey2Quiz implements QuizQuestionProvider {
   getProviderName(): string {
-    return 'JBey1';
+    return 'JBey1', "test";
   }
   makeQuizQuestions() {
     return [
