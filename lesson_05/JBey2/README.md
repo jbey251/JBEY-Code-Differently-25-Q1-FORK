@@ -7,6 +7,11 @@
 **I want** to create a customizable war mapping app where you can map out taken territory, tally the estimated casualties, and watch the latest events/updates happen in real time,
 **so that** people can more easily track what's going on in a war, past or present.
 
+**Acceptance Criteria 1**
+- The user can draw a map to delineate territory through the use of polygon tools or freehand drawing.
+- The user will see an alert notifications side-bar with a history of all the live updates happening within the war.
+- The user will be able to put in the total estimated casualties for each faction in the war, and they will be able to display that number wherever they want on the app.
+
 ### User Story 2: A Prime Stud Website
 **As a** future dog owner,
 **I want** to create a website that is specifically designed for my Stud dog and Pet Sitting Service,
@@ -16,3 +21,4 @@
 **As a** competitive video game player,
 **I want** to create a discord server that incentivizes people to play each other in a particular game both competitively and casually,
 **so that** people may have a better time playing against each other.
+
