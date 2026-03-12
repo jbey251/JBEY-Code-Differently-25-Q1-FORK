@@ -12,10 +12,17 @@
 - The user will see an alert notifications side-bar with a history of all the live updates happening within the war.
 - The user will be able to put in the total estimated casualties for each faction in the war, and they will be able to display that number wherever they want on the app.
 
+---
+
 ### User Story 2: A Prime Stud Website
 **As a** future dog owner,
 **I want** to create a website that is specifically designed for my Stud dog and Pet Sitting Service,
 **so that** so that I can have a small monopoly in my local community 😈.
+
+**Acceptance Criteria 2**
+- The user can schedule a meetup for either Stud services or Pet Sitting Services on the website calendar that everybody can see publicly.
+- The user can communicate with me directly on the website so that we may more easily schedule a date.
+- The user can view my works history, from past sittings to past breedings, using an integrated timeline tool.
 
 ### User Story 3: Kemetcord
 **As a** competitive video game player,
