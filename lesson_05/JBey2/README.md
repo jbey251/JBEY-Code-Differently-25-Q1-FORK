@@ -12,4 +12,7 @@
 **I want** to create a website that is specifically designed for my Stud dog and Pet Sitting Service,
 **so that** so that I can have a small monopoly in my local community 😈.
 
-### User Story 3: 
+### User Story 3: Kemetcord
+**As a** competitive video game player,
+**I want** to create a discord server that incentivizes people to play each other in a particular game both competitively and casually,
+**so that** people may have a better time playing against each other.
