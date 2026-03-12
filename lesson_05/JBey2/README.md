@@ -24,8 +24,14 @@
 - The user can communicate with me directly on the website so that we may more easily schedule a date.
 - The user can view my works history, from past sittings to past breedings, using an integrated timeline tool.
 
+---
+
 ### User Story 3: Kemetcord
 **As a** competitive video game player,
 **I want** to create a discord server that incentivizes people to play each other in a particular game both competitively and casually,
 **so that** people may have a better time playing against each other.
 
+**Acceptance Criteria 3**
+- The user will be able to create a matchmaking lobby in a category called "Universal Rankings" where they can wait to be accepted into a match against anyone in the server.
+- The user will be able complete quests where they gamble a certain amount of gold for a potential prize if they manage to complete the quest.
+- The user will be able to place wagers using fake AND real-world currency on people in a match or in a future match.
