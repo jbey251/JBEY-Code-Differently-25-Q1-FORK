@@ -43,6 +43,7 @@ let result = 1;
  * @return An array containing the first `n` Fibonacci values.
  */
 export function getFirstNFibonacciNumbers(n: number): number[] {
+  
   return [];
 }
 
