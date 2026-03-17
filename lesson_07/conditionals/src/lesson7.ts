@@ -28,12 +28,17 @@ export function compareStrings(a: string, b: string): number {
  * @return The factorial of n.
  */
 export function computeFactorial(n: number): number {
-let result = 1;
-
-  for (let i = 0; i <= n; i++) {
-    result = result + n;
+  if (n < 0) {
+    return 0;
   }
-  return result;
+
+  let factorial = 1;
+
+  for (let i = 1; i < n; n--) {
+    factorial = factorial * n;
+  }
+
+  return factorial;
 }
 
 /**
@@ -43,15 +48,15 @@ let result = 1;
  * @return An array containing the first `n` Fibonacci values.
  */
 export function getFirstNFibonacciNumbers(n: number): number[] {
-  if (n === 0) return [0];
-  if (n === 1) return [0, 1];
-    
-    const sequence = [0, 1];
-    
-    for (let i = 2; i <= n; i++) {
-        sequence.push(sequence[i - 1] + sequence[i - 2]);
-    }
-    return sequence;
+  if (n === 0) {
+    return [];
+  }
+
+  const fibNums = [1, 1];
+  for (let i = 2; i < n; i++) {
+    fibNums.push(fibNums[i - 1] + fibNums[i - 2]);
+  }
+  return fibNums;
 }
 
 /**
