@@ -3,7 +3,7 @@
  * https://leetcode.com/problems/concatenation-of-array
  */
 export function getConcatenation(nums: number[]): number[] {
-  let array = [];
+  const array = [];
   for (const ans of nums) {
     array.push(ans);
   }
@@ -20,13 +20,16 @@ console.log(getConcatenation([1, 2]));
  * https://leetcode.com/problems/find-words-containing-character/
  */
 export function findWordsContaining(words: string[], x: string): number[] {
-  let newArray = [];
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].indexOf(x) != -1) {
-      newArray.push(i);
+  let array: any[] = [];
+  let i = 0;
+
+  for (const string of words) {
+    if (string.indexOf(x) != -1) {
+      array.push(i);
     }
+    i++;
   }
-  return newArray;
+  return array;
 }
 
-console.log(findWordsContaining(["leet", "code"], "e"));
+console.log(findWordsContaining(['leet', 'code'], 'e'));
