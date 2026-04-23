@@ -24,5 +24,13 @@ console.log(getConcatenation([1, 2]));
  * https://leetcode.com/problems/find-words-containing-character/
  */
 export function findWordsContaining(words: string[], x: string): number[] {
-  return [];
+  let newArray = [];
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].indexOf(x) != -1) {
+      newArray.push(i);
+    }
+  }
+  return newArray;
 }
+
+console.log(findWordsContaining(["leet", "code"], "e"));
