@@ -20,7 +20,7 @@ console.log(getConcatenation([1, 2]));
  * https://leetcode.com/problems/find-words-containing-character/
  */
 export function findWordsContaining(words: string[], x: string): number[] {
-  let array: any[] = [];
+  const array: number[] = [];
   let i = 0;
 
   for (const string of words) {
